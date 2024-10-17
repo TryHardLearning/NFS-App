@@ -82,10 +82,10 @@ const Sidebar = () => {
                   fontWeight="semi-bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Usuario
+                  Lucas C. Bresolino
                 </Typography>
                 <Typography variant="h5" fontWeight="400" color={colors.greenAccent[500]}>
-                  NFS Engenharia
+                  CRM Proto
                 </Typography>
               </Box>
             </Box>

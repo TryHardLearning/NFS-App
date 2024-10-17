@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import { mockTransactions,mockLineData, transactionSend, mockBarData} from "../data/mockData";
@@ -19,9 +19,9 @@ const Dashboard = () => {
 
   let [data, setData] = useState([]);
 
-  useEffect(() => {
-    loadData();
-  }, []);
+  // useEffect(() => {
+  //   loadData();
+  // }, []);
   return (
     <Box m="20px" sx={{ overflowX: 'hidden' }}>
 
